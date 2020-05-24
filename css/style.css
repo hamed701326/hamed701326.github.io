@@ -120,7 +120,7 @@ section#skills{
 }
 section#skills .row{
     width: 100%;
-    padding: 70px 0;
+    padding: 30px 0;
     text-align: center;
 }
 section#skills h2{
@@ -134,11 +134,15 @@ section#skills .skills-items{
 }
 section#skills .skills-items .item{
     display: block;
-    width: 24%;
+    width: 25%;
     padding: 30px 10px;
     box-sizing: border-box;
     float: left;
 
+}
+
+section#skills .skills-items .item p{
+    padding-left: 20px;
 }
 section#skills .item .fab{
     color:#3ac9f4;
@@ -147,13 +151,84 @@ section#skills .item .fab{
 }
 section#skills .item ul{
     text-align: left;
+    padding-left: 10px;
+    padding-top: 30px;
 }
 section#skills .item ul li::after{
     content: ":";
 }
 section#skills .item img{
     box-sizing: border-box;
-    width:25%;
+    width:45%;
+    height: 100px;
     padding: 10px 0;
     
 }
+
+/* Contact  */
+footer{
+    width: 100%;
+    background:linear-gradient(rgba(92,77,66,.8),rgba(92,77,66,0.8));
+}
+footer .row{
+    text-align: center;
+    padding: 50px 0;
+}
+footer h2{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+footer p{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#6c757d;
+    padding: 0 210px;
+}
+footer ul{
+    width:100%;
+    list-style: none;
+    padding: 30px 0;
+}
+footer ul li{
+    display: inline-block;
+    width:20%;
+}
+footer ul  p{
+    font-family: 'Merriweather',serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0;
+    margin-top: 20px;
+}
+footer ul i{
+    color:rgb(255,255,255);
+    font-size: 4rem;
+}
+/* skill bar  */
+.skill-container{
+    margin-left: 20px;
+    width: 80%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+.skill-bar {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;} /* Green */
+  .css {width: 80%; background-color: rgb(33, 37, 243);} /* Blue */
+  .jQuery {width: 65%; background-color: #36f4e4;} 
+  .bootstrap {width: 50%; background-color: #808080;} 
+  .mysql{width: 50%; background-color: #808080;}
+  .cassandra{width: 30%; background-color: #c0bd12;}
+  .software-engineering{width: 40%; background-color: #aadb22;}
+  .network{width: 20%; background-color: #dfa403;}
+  .linux{width: 15%; background-color: #eb6912;}
+  
