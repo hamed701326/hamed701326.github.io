@@ -255,7 +255,7 @@ footer ul i{
         color: black;
     }
     nav button{
-        display: solid;
+        display: block;
         float: right;
         box-sizing: border-box;
         margin-bottom: 30px;
